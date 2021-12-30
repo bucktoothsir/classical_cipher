@@ -22,5 +22,6 @@ def test_caesar():
     plaintext, possible_key = caesar_decode(ciphertext)
     print("The plaintext is: \"%s\"." % plaintext)
 
+
 if __name__ == '__main__':
     test_caesar()
