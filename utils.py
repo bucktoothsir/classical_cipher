@@ -104,6 +104,7 @@ def index_of_coincidence(text: str) -> float:
     ic /= n * (n - 1)
     return ic
 
+
 def get_possible_single_keys(letter_and_per_sorted: list, k: int) -> list:
     """
     Return the first k possible keys sorting by mutual ic.

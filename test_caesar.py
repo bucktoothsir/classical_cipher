@@ -14,12 +14,12 @@ def test_caesar():
     print("Running the caesar decode with key test example.")
     print("The ciphertext is: \"%s\"." % ciphertext)
     print("The key is: %d." % key)
-    plaintext = caesar_decode(ciphertext, key)
+    plaintext = caesar_decode(ciphertext, key)[0]
     print("The plaintext is: \"%s\"." % plaintext)
     print('-' * 100)
     print("Running the caesar decode without key test example.")
     print("The ciphertext is: \"%s\"." % ciphertext)
-    plaintext = caesar_decode(ciphertext)
+    plaintext, possible_key = caesar_decode(ciphertext)
     print("The plaintext is: \"%s\"." % plaintext)
 
 if __name__ == '__main__':
