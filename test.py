@@ -7,5 +7,6 @@
 # Distributed under terms of the MIT license.
 
 """
-t
 """
+a=1
+b=c+1
