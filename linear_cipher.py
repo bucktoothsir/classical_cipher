@@ -23,7 +23,7 @@ def linear_encode(plaintext: str, a: int, b: int) -> str:
         ciphertext += c
     return ciphertext
 
- 
+
 def linear_decode(ciphertext: str, a: int, b: int) -> str:
     if(math.gcd(26, a) != 1):
         raise ValueError("Bad Key.")

@@ -83,7 +83,7 @@ def count_letter_percentage(text: str) -> list:
 def index_of_coincidence(text: str) -> float:
     """cal the IC of test
 
-       IC = \sigma_{i=A}^{i=Z} count_i * (count_i - 1) / N * (N - 1))
+       IC = sigma_{i=A}^{i=Z} count_i * (count_i - 1) / N * (N - 1))
 
        N is the length of letters(a-z) in the text
 
